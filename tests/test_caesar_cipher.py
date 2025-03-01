@@ -24,5 +24,4 @@ class TestCaesarCipher(unittest.TestCase):
     def test_empty_string(self):
         self.assertEqual(caesarCipher("", 5), "")
 
-if __name__ == "__main__":
-    unittest.main()
+unittest.main()
